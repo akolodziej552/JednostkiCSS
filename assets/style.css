@@ -32,7 +32,7 @@ a {
     text-decoration: none;
 }
 a:visited {
-    color: #f0e15d;
+    color: rgba(87, 199, 133, 1);
 }
 p {
     font-size: x-large;
