@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Aleksander Kołodziej">
+    <meta name="description" content="Jednostki względne w CSS">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jednostki wzglęne CSS</title>
+    <link rel="stylesheet" href="../assets/ArkuszMeyera.css">
+    <link rel="stylesheet" href="../assets/style.css">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .header ,.kontent {
+            place-items: center;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Jednostki względne</h1>
+        <ul>
+            <li><a href="../index.html">Strona główna</a></li>
+            <li><a href="bezwzglednecite.html">Jednostki bezwzględne</a></li>
+        </ul>
+    </div>
+    <div class="kontent">
+        <p>Jednostki względne określają długość względem innej długości.<br>
+        Lepiej się je skaluje między różnymi rozmiarami ekranów</p>
+        <table>
+            <tr>
+                <th>Jednostka</th>
+                <th>Opis</th>
+            </tr>
+            <tr>
+                <td>em</td>
+                <td>Skalowanie względem rozmiaru czcionki</td>
+            </tr>
+            <tr>
+                <td>ex</td>
+                <td>Skalowanie względem wysokości czcionki</td>
+            </tr>
+            <tr>
+                <td>ch</td>
+                <td>Skalowanie względem szerokości "0"</td>
+            </tr>
+            <tr>
+                <td>rem</td>
+                <td>Skalowanie względem rozmiaru czcionki elementu głównego</td>
+            </tr>
+            <tr>
+                <td>vw</td>
+                <td>Skalowanie względem 1% szerokości okna przeglądarki</td>
+            </tr>
+            <tr>
+                <td>vh</td>
+                <td>Skalowanie względem 1% wysokości okna przeglądarki</td>
+            </tr>
+            <tr>
+                <td>vmin</td>
+                <td>Skalowanie względem 1% mniejszego wymiaru okna przeglądarki</td>
+            </tr>
+            <tr>
+                <td>vmax</td>
+                <td>Skalowanie względem 1% większego wymiaru okna przeglądarki</td>
+            </tr>
+            <tr>
+                <td>%</td>
+                <td>Skalowanie względem rodzica</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
